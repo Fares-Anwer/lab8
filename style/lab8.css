@@ -1,0 +1,86 @@
+/* هذا لما نفعل توريث لبعض الاجزاء */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+}
+h2 {
+    font-family: "FFTaweel-Stamp", Times, serif;
+    text-decoration: overline;
+ }
+ h3{
+    text-decoration: line-through;
+ }
+#a{
+    text-transform: lowercase;/* text-transform: capitalize;  نوع الحروف كبيرة أو صغيرة*/
+    text-indent: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border:solid 10px red;
+    font-variant: normal;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+}
+#b{
+    text-transform: capitalize;
+    text-indent: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border:solid 10px red;
+    font-variant: small-caps;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+#c{
+    text-transform: uppercase;
+    text-indent:30px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    border:solid 10px red;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* visited لي موقع تمت زيارته ونضيف له اي مميزة من اللي اخدناها */
+/* نضيفه للرابط يعني نضيف مثلا لون للباك جراوند */
+a:link {
+    color: green;
+   }
+/* visited لي موقع تمت زيارته ونضيف له اي مميزة من اللي اخدناها */
+    a:visited {
+    color: black;
+    background-color: gray;
+   }
+   /* hover هذا نفعل اي شيء للرابط مثل اللون وذلك عند وضع المووس عليه */
+   a:hover {
+    color: yellow;
+    background-color: gray;
+   }
+   a:active {
+    color: blue;
+   }
+.gh{
+    top: 150px;
+    right: 50px;
+}
+#abs{
+    position: sticky;
+    top: 10px;
+}
+img {
+    width: 300px;
+    height:200px;
+    float: left;
+    margin: 0 0 10px 10px;
+   }
+   
+.clear{
+    clear:both;
+    }
